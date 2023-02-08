@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css'
 
 const lexandPeta = Lexend_Peta({ subsets: ['latin'] })
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <h1 className={`${lexandPeta.className} text-3xl font-bold`}>
-            PUPPLi
+            About
           </h1>
         </div>
       </main>
